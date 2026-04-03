@@ -1,0 +1,71 @@
+export const VOTD_VERSES = [
+  { ref: "Philippians 4:13", text: "I can do all things through Christ which strengtheneth me." },
+  { ref: "Psalm 46:1", text: "God is our refuge and strength, a very present help in trouble." },
+  { ref: "Proverbs 3:5-6", text: "Trust in the LORD with all thine heart; and lean not unto thine own understanding." },
+  { ref: "Isaiah 40:31", text: "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles." },
+  { ref: "Jeremiah 29:11", text: "For I know the thoughts that I think toward you, saith the LORD, thoughts of peace, and not of evil." },
+  { ref: "Romans 8:28", text: "And we know that all things work together for good to them that love God." },
+  { ref: "Joshua 1:9", text: "Be strong and of a good courage; be not afraid, neither be thou dismayed." },
+  { ref: "Psalm 23:1", text: "The LORD is my shepherd; I shall not want." },
+  { ref: "John 3:16", text: "For God so loved the world, that he gave his only begotten Son." },
+  { ref: "Psalm 119:105", text: "Thy word is a lamp unto my feet, and a light unto my path." },
+];
+
+export const TOPICS: Record<string, { r: string; t: string }[]> = {
+  strength: [
+    { r: "Philippians 4:13", t: "I can do all things through Christ which strengtheneth me." },
+    { r: "Isaiah 40:31", t: "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles." },
+    { r: "Psalm 46:1", t: "God is our refuge and strength, a very present help in trouble." },
+    { r: "Joshua 1:9", t: "Be strong and of a good courage; be not afraid, neither be thou dismayed." },
+    { r: "2 Corinthians 12:10", t: "For when I am weak, then am I strong." },
+  ],
+  anxiety: [
+    { r: "Philippians 4:6-7", t: "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God." },
+    { r: "1 Peter 5:7", t: "Casting all your care upon him; for he careth for you." },
+    { r: "Matthew 6:34", t: "Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself." },
+    { r: "Psalm 94:19", t: "In the multitude of my thoughts within me thy comforts delight my soul." },
+    { r: "John 14:27", t: "Peace I leave with you, my peace I give unto you." },
+  ],
+  healing: [
+    { r: "Jeremiah 17:14", t: "Heal me, O LORD, and I shall be healed; save me, and I shall be saved." },
+    { r: "Psalm 103:3", t: "Who forgiveth all thine iniquities; who healeth all thy diseases." },
+    { r: "Isaiah 53:5", t: "But he was wounded for our transgressions; with his stripes we are healed." },
+    { r: "James 5:15", t: "And the prayer of faith shall save the sick, and the Lord shall raise him up." },
+    { r: "Exodus 15:26", t: "I am the LORD that healeth thee." },
+  ],
+  forgiveness: [
+    { r: "1 John 1:9", t: "If we confess our sins, he is faithful and just to forgive us our sins." },
+    { r: "Ephesians 4:32", t: "Be ye kind one to another, tenderhearted, forgiving one another." },
+    { r: "Colossians 3:13", t: "Forbearing one another, and forgiving one another." },
+    { r: "Psalm 103:12", t: "As far as the east is from the west, so far hath he removed our transgressions from us." },
+    { r: "Matthew 6:14", t: "For if ye forgive men their trespasses, your heavenly Father will also forgive you." },
+  ],
+  love: [
+    { r: "1 Corinthians 13:4-5", t: "Charity suffereth long, and is kind; charity envieth not." },
+    { r: "John 3:16", t: "For God so loved the world, that he gave his only begotten Son." },
+    { r: "Romans 8:38-39", t: "Neither death, nor life... shall be able to separate us from the love of God." },
+    { r: "1 John 4:19", t: "We love him, because he first loved us." },
+    { r: "John 15:13", t: "Greater love hath no man than this, that a man lay down his life for his friends." },
+  ],
+  wisdom: [
+    { r: "James 1:5", t: "If any of you lack wisdom, let him ask of God, that giveth to all men liberally." },
+    { r: "Proverbs 3:5-6", t: "Trust in the LORD with all thine heart; and lean not unto thine own understanding." },
+    { r: "Proverbs 9:10", t: "The fear of the LORD is the beginning of wisdom." },
+    { r: "Psalm 119:105", t: "Thy word is a lamp unto my feet, and a light unto my path." },
+    { r: "Colossians 3:16", t: "Let the word of Christ dwell in you richly in all wisdom." },
+  ],
+  faith: [
+    { r: "Hebrews 11:1", t: "Now faith is the substance of things hoped for, the evidence of things not seen." },
+    { r: "Romans 10:17", t: "So then faith cometh by hearing, and hearing by the word of God." },
+    { r: "Matthew 17:20", t: "If ye have faith as a grain of mustard seed... nothing shall be impossible unto you." },
+    { r: "2 Corinthians 5:7", t: "For we walk by faith, not by sight." },
+    { r: "Mark 11:24", t: "What things soever ye desire, when ye pray, believe that ye receive them." },
+  ],
+  grief: [
+    { r: "Psalm 34:18", t: "The LORD is nigh unto them that are of a broken heart." },
+    { r: "Matthew 5:4", t: "Blessed are they that mourn: for they shall be comforted." },
+    { r: "Revelation 21:4", t: "And God shall wipe away all tears from their eyes." },
+    { r: "Psalm 147:3", t: "He healeth the broken in heart, and bindeth up their wounds." },
+    { r: "John 14:1", t: "Let not your heart be troubled: ye believe in God, believe also in me." },
+  ],
+};
