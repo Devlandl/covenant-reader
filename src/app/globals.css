@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --cr-royal: #2D1B69;
+  --cr-royal-mid: #4A2F9E;
+  --cr-royal-light: #7B5EA7;
+  --cr-gold: #C9A84C;
+  --cr-gold-light: #E8C96A;
+  --cr-cream: #FAF6F0;
+  --cr-parchment: #F5EDD8;
+  --cr-ink: #1A1208;
+  --cr-ink-mid: #3D2E1A;
+  --cr-ink-soft: #6B5A42;
+  --background: #FAF6F0;
+  --foreground: #1A1208;
+}
+
+.dark {
+  --cr-cream: #1A1020;
+  --cr-parchment: #231830;
+  --cr-ink: #FAF6F0;
+  --cr-ink-mid: #D4C8B0;
+  --cr-ink-soft: #A89880;
+  --background: #1A1020;
+  --foreground: #FAF6F0;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-cr-royal: var(--cr-royal);
+  --color-cr-royal-mid: var(--cr-royal-mid);
+  --color-cr-royal-light: var(--cr-royal-light);
+  --color-cr-gold: var(--cr-gold);
+  --color-cr-gold-light: var(--cr-gold-light);
+  --color-cr-cream: var(--cr-cream);
+  --color-cr-parchment: var(--cr-parchment);
+  --color-cr-ink: var(--cr-ink);
+  --color-cr-ink-mid: var(--cr-ink-mid);
+  --color-cr-ink-soft: var(--cr-ink-soft);
+  --font-heading: var(--font-cinzel);
+  --font-body: var(--font-crimson);
+}
