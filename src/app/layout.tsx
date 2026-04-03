@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Cinzel, Crimson_Pro } from "next/font/google";
 import "./globals.css";
 import ConvexClientProvider from "@/components/ConvexClientProvider";
+import InstallPrompt from "@/components/InstallPrompt";
 
 const cinzel = Cinzel({
   variable: "--font-cinzel",
@@ -54,6 +55,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col font-[family-name:var(--font-crimson)] bg-cr-cream text-cr-ink">
         <ConvexClientProvider>{children}</ConvexClientProvider>
+        <InstallPrompt />
         <script
           dangerouslySetInnerHTML={{
             __html: `
